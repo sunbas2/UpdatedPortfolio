@@ -1,0 +1,88 @@
+ /* index page  */
+
+.container {
+    background-color: lightblue;
+}
+.navbar {
+    float: clear;
+}
+.name {
+    color: gold;
+    font-size: 150%;
+    float: left;
+    position: relative;
+}                             
+.btn {
+    margin: 10px;
+}
+.about {
+    font-size: 150%;
+}
+.header1 {
+    float: right 
+}
+.float-left {
+    float:left;
+    padding: 10px;
+}
+.words {
+    padding: 10px;
+}
+
+/* index page  */
+
+
+/* portfolio page */
+
+/* .portfoliopics {
+    float: left;
+    padding: 10px;
+} */
+
+.portfolio {
+    font-size: 150%;
+}
+.portfoliopics {
+    padding: 5px;
+}
+
+/* portfolio page */
+
+
+
+
+/* contact page */
+
+.contact {
+    font-size: 150%;
+}
+
+/* contact page */
+
+
+/* media queries /*
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 0px) and (max-width: 768px) { 
+    .words, .name, .about, .contact, .portfolio {
+        font-size: 85%;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+    .words, .name, .about, .contact, .portfolio {
+        font-size: 100%;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) and (max-width: 1500px) { 
+    .name, .about, .contact, .portfolio {
+        font-size: 150%;
+    }
+    .words {
+        font-size: 125;
+    }
+}
+
