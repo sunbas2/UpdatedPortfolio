@@ -1,15 +1,11 @@
-// About Me, Portfolio, Contact button//
+// Contact page //
 
-function() {
-    $("btn1").click(function(){
-
-    });
-    $("btn2")
-    $("btn3")
-};
-
-
-<a href="C:/Users/Max Power/Desktop/CBC/Assignment 8/UpdatedPortfolio/index.html> </a>
-
-
-<a href="UpdatedPortfolio/portfolio.html> </a>
+$(document).ready(function() {
+    $( "form" ).submit(function( event ) {
+        console.log( $( this ).serializeArray() );
+        var x = $( this ).serializeArray();
+        console.log(x);
+        event.preventDefault();
+        $("#inputNameDP").text = x;
+      });
+});
